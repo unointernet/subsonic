@@ -47,7 +47,7 @@ import org.springframework.web.servlet.mvc.ParameterizableViewController;
  */
 public class VideoPlayerController extends ParameterizableViewController {
 
-    public static final int DEFAULT_BIT_RATE = 1000;
+    public static final int DEFAULT_BIT_RATE = 400;
     public static final int[] BIT_RATES = {200, 300, 400, 500, 700, 1000, 1200, 1500, 2000, 3000, 5000};
 
     private static final Logger LOG = Logger.getLogger(VideoPlayerController.class);
